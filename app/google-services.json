@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "252954671809",
+    "firebase_url": "https://utsav18-15834.firebaseio.com",
+    "project_id": "utsav18-15834",
+    "storage_bucket": "utsav18-15834.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252954671809:android:37641623e6db0eac",
+        "android_client_info": {
+          "package_name": "com.hunterlab.hunter.utsav18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252954671809-l24dqc4v4ut698o5gvmq6l1743rec43p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf8_Ofrf-6FZD7-JB5ggybu8SChSoLIOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

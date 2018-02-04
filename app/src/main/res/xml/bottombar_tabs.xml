@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        id="@+id/tab_events"
+        title="Events"
+        icon="@drawable/ic_event_white_24dp"
+        barColorWhenSelected="#4CAF50"
+        />
+
+    <tab
+        id="@+id/tab_news"
+        title="News"
+        icon="@drawable/ic_newspaper_white_24dp"
+        barColorWhenSelected="#3F51B5"
+        />
+
+    <tab
+        id="@+id/tab_about"
+        title="About"
+        icon="@drawable/ic_info_outline_white_24dp"
+        barColorWhenSelected="#607D8B"
+        />
+
+</tabs>

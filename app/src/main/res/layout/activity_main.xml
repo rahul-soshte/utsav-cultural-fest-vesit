@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+android:orientation="vertical"
+tools:context="com.hunterlab.hunter.utsav18.MainActivity"
+android:weightSum="10"
+android:id="@+id/parent_main_fragment">
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+</android.support.design.widget.AppBarLayout>
+
+<FrameLayout
+    android:id="@+id/main_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    >
+</FrameLayout>
+
+<com.roughike.bottombar.BottomBar
+    android:id="@+id/bottombar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    app:bb_tabXmlResource="@xml/bottombar_tabs"
+    app:bb_behavior="shifting"
+    android:layout_gravity="center_horizontal|bottom"
+    android:layout_weight="0"
+    />
+
+</LinearLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivityr"
+    android:background="@color/feed_bg">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/img"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="UTSAV"
+                        android:textAlignment="viewStart"
+                        android:gravity="start"
+                        android:textAllCaps="true"
+                        android:textColor="#212121"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img"
+                        android:layout_margin="5dp"
+                        android:text="@string/pra"
+                        android:textAlignment="viewStart"
+                        android:gravity="start"
+                        android:textAllCaps="false"
+                        android:textColor="#212121"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#F5F5F5"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/prxi"
+                        />
+
+                    <TextView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image1"
+                        android:layout_margin="5dp"
+                        android:text="@string/college_name"
+                        android:textAlignment="viewStart"
+                        android:gravity="start"
+                        android:textAllCaps="true"
+                        android:textColor="#212121"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image2"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_margin="5dp"
+                        android:gravity="center_horizontal|fill_horizontal"
+                        android:text="@string/history"
+                        android:textColor="#212121"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#F5F5F5"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/imag2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="VISION"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#212121"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imag2"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_margin="5dp"
+                        android:gravity="center_horizontal|fill_horizontal"
+                        android:text="@string/vision"
+                        android:textColor="#212121"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/pics"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:background="@color/orange"
+                    android:id="@+id/prin"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/principal" />
+
+                <TextView
+                    android:id="@+id/printext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/prin"
+                    android:layout_margin="5dp"
+                    android:text="Dr.(Mrs.) J.M Nair \n Principal,VESIT"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="#212121"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/vice"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/printext"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/viceprincipal" />
+
+                <TextView
+                    android:id="@+id/vicetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/vice"
+                    android:layout_margin="5dp"
+                    android:text="Mrs. Vijayalaxmi M. \n Vice-Principal,VESIT"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="#212121"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/dean"
+                    android:background="@color/green"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/vicetext"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/sabnissir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dean"
+                    android:layout_margin="5dp"
+                    android:text="Prof. Manoj Sabnis \n Dean of Student Affairs,VESIT"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="#212121"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pics"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#F5F5F5"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/lastt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="HOW TO CONTACT ?"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#212121"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lastt"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_margin="5dp"
+                        android:gravity="center_horizontal|fill_horizontal"
+                        android:text="Websites :\n ves.ac.in/vesit \n \n\n Address : \n Collector's Colony, Chembur \n Mumbai-400074 "
+                        android:textColor="#212121"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

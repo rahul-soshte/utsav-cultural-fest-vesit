@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Utsav18</string>
+    <string name="fb_app_id">1036852406433569</string>
+    <string name="fb_app_secret">eb4b6f3cd3a810eed0b8e53a9af570eb</string>
+    <string name="college_name">V.E.S. Institute of Technology</string>
+    <string name="history">" Vivekanand Education Society's Institute of Technology also known as VESIT or V.E.S. Institute of Technology, established in 1984, is an engineering college affiliated with the University of Mumbai. The campus is located in Chembur, a northeastern suburb of Mumbai.
+    VESIT shares its campus with the college of Pharmacy and the college for Management and Research. The campus comprises one big C-shaped building for the engineering college and several other buildings for the other colleges, hostels, etc."</string>
+    <string name="vision">
+    To create a vibrant knowledge-oriented environment with innovative teaching practices and to
+    inculcate a tradition of socially conscious application of technology</string>
+    <string name="pra">Utsav is the annual inter-collegiate and intracollege Cultural festival of VESIT.Utsav 2018 will be held on 16th and 17th March.</string>
+
+    <string name="title_activity_splash_screeen">SplashScreeen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="utsav">UTSAV</string>
+</resources>
