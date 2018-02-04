@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
@@ -23,13 +24,14 @@ import android.widget.Toast;
 
 import com.hunterlab.hunter.utsav18.AboutUs.AboutUs_main;
 import com.hunterlab.hunter.utsav18.Events.Events_main;
+import com.hunterlab.hunter.utsav18.Events_Utsav.Events_main_Utsav;
 import com.hunterlab.hunter.utsav18.FbNews.Fb_main;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
 
 import java.util.Calendar;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Events_main_Utsav.OnFragmentInteractionListener {
     BottomBar bottomBar;
     Fragment fragment=null;
     static boolean tab=false;
@@ -51,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (tabId){
 
                     case R.id.tab_events:
-                        Events_main events_main = new Events_main();
+                        Events_main_Utsav events_main = new Events_main_Utsav();
                         getFragmentManager().beginTransaction().replace(R.id.main_fragment, events_main).commit();
 
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -143,5 +145,9 @@ public class MainActivity extends AppCompatActivity {
             default:return super.onOptionsItemSelected(item);
         }
 
+    }
+    @Override
+    public void onFragmentInteraction(Uri uri){
+        //you can leave it empty
     }
 }
