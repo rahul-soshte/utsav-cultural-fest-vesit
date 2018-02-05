@@ -1,6 +1,7 @@
 package com.hunterlab.hunter.utsav18.Events_Utsav;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
@@ -18,6 +19,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.hunterlab.hunter.utsav18.Portfolio_Events_Utsav.Portfolio_event_utsav_activity;
 import com.hunterlab.hunter.utsav18.R;
 import com.hunterlab.hunter.utsav18.RecyclerTouchListener;
 import com.hunterlab.hunter.utsav18.SimpleDividerItemDecoration;
@@ -104,11 +106,11 @@ public class Events_main_Utsav extends Fragment {
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity().getApplicationContext(), recyclerView, new RecyclerTouchListener.ClickListener() {
             @Override
             public void onClick(View view, int position) {
-              //  Author author= authorArrayList.get(position);
-                //Toast.makeText(getActivity().getApplicationContext(),author.getId(),Toast.LENGTH_SHORT).show();
-                //Intent intent=new Intent(getActivity().getApplicationContext(),QuoteActivity.class);
-                //intent.putExtra("id",author.getId());
-               // startActivity(intent);
+                EventCat eventCat= catsArrayList.get(position);
+            //    Toast.makeText(getActivity().getApplicationContext(),author.getId(),Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(getActivity().getApplicationContext(),Portfolio_event_utsav_activity.class);
+                intent.putExtra("id",eventCat.getId());
+                startActivity(intent);
             }
 
             @Override

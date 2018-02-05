@@ -12,5 +12,11 @@
         android:title="Developers"
         android:orderInCategory="2"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/intercollege"
+        android:title="InterCollege Details"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        />
 
 </menu>
