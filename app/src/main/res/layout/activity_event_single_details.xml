@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.hunterlab.hunter.utsav18.Event_Single.EventSingleDetailsActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/event_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="eventName" />
+
+    <TextView
+        android:id="@+id/teamsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/event_name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/event_name"
+        android:layout_marginBottom="79dp"
+        android:text="Team Size" />
+
+    <TextView
+        android:id="@+id/entriesperclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/event_desc3"
+        android:layout_marginTop="95dp"
+        android:text="Entries Per Class" />
+
+    <TextView
+        android:id="@+id/event_desc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/teamsize"
+        android:layout_alignRight="@+id/teamsize"
+        android:layout_marginTop="146dp"
+        android:text="eventDesc" />
+
+</RelativeLayout>

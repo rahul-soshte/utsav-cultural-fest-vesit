@@ -24,13 +24,13 @@ public class Portfolio_event_utsav_activity extends AppCompatActivity {
     RecyclerView recyclerView;
     PortfolioEventAdapter portfolioEventAdapter;
     LinearLayoutManager linearLayoutManager;
-
+    String id;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_portfolio_event_utsav_activity);
         Intent intent=getIntent();
-        String id=intent.getStringExtra("id");
+        id=intent.getStringExtra("id");
         linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView=(RecyclerView)findViewById(R.id.recylerview);
         recyclerView.setLayoutManager(linearLayoutManager);
@@ -47,7 +47,8 @@ public class Portfolio_event_utsav_activity extends AppCompatActivity {
                 PortfolioEvent portfolioEvent= eventsList.get(position);
                 //    Toast.makeText(getActivity().getApplicationContext(),author.getId(),Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(),EventSingleDetailsActivity.class);
-                intent.putExtra("id",portfolioEvent.getId());
+                intent.putExtra("id_event",portfolioEvent.getId());
+                intent.putExtra("id",id);
                 startActivity(intent);
             }
 
