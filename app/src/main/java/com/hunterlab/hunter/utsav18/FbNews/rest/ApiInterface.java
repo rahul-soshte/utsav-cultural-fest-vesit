@@ -13,10 +13,10 @@ import retrofit2.http.Query;
  */
 public interface ApiInterface {
 
-    @GET("praxistechfest/posts")
+    @GET("VESITCultural/posts")
     Call<FbGraphResponse> getFeed(@Query("fields") String fields, @Query("access_token") String token);
 
-    @GET("praxistechfest")
+    @GET("VESITCultural")
     Call<FbPic> getPic(@Query("fields") String fields, @Query("access_token") String token);
 }
 
