@@ -136,12 +136,6 @@ public class MainActivity extends AppCompatActivity implements Events_main_Utsav
                 startActivity(intent);
                 return true;
 
-
-            case R.id.council:
-                Intent intent1=new Intent(MainActivity.this,CulturalCouncil.class);
-                startActivity(intent1);
-                return true;
-
             default:return super.onOptionsItemSelected(item);
         }
 
