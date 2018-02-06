@@ -10,7 +10,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivityr"
+    tools:context=".MainActivity"
     android:background="@color/feed_bg">
 
     <android.support.v4.widget.NestedScrollView
