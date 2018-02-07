@@ -4,45 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hunterlab.hunter.utsav18.Event_Single.EventSingleDetailsActivity">
+    tools:context="com.hunterlab.hunter.utsav18.Event_Single.EventSingleDetailsActivity"
+    android:background="@color/white">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <TextView
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@color/orange"
         android:id="@+id/event_name"
-        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="eventName" />
+        />
+</android.support.v7.widget.CardView>
 
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <TextView
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
         android:id="@+id/teamsize"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/event_name"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/event_name"
-        android:layout_marginBottom="79dp"
-        android:text="Team Size" />
-
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/entriesperclass"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <TextView
         android:id="@+id/entriesperclass"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/event_desc3"
-        android:layout_marginTop="95dp"
-        android:text="Entries Per Class" />
+        android:background="@color/blue"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <TextView
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
         android:id="@+id/event_desc3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/teamsize"
-        android:layout_alignRight="@+id/teamsize"
-        android:layout_marginTop="146dp"
-        android:text="eventDesc" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/event_name"
+        android:background="@color/brown"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+    </android.support.v7.widget.CardView>
+    </android.support.v4.widget.NestedScrollView>
 
 </RelativeLayout>

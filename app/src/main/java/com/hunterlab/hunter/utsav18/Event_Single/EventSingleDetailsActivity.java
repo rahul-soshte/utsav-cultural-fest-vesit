@@ -21,7 +21,7 @@ public class EventSingleDetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event_single_details);
+        setContentView(R.layout.for_single_event);
 
         tName=(TextView)findViewById(R.id.event_name);
         tDesc=(TextView)findViewById(R.id.event_desc3);
@@ -44,10 +44,10 @@ public class EventSingleDetailsActivity extends AppCompatActivity {
 //                Toast.makeText(EventSingleDetailsActivity.this,eventSingleDetails.getName(),Toast.LENGTH_LONG).show();
          //       Toast.makeText(EventSingleDetailsActivity.this,Long.toString(eventSingleDetails.getEntriesperclass()),Toast.LENGTH_LONG).show();
 
-                 tName.setText(eventSingleDetails.getName());
+                 tName.setText("Event Name:"+eventSingleDetails.getName());
                 tDesc.setText(eventSingleDetails.getEvent_desc());
-                tSize.setText(Long.toString(eventSingleDetails.getTeamsize()));
-                tNoofClass.setText(Long.toString(eventSingleDetails.getEntriesperclass()));
+                tSize.setText("Team Size:"+Long.toString(eventSingleDetails.getTeamsize()));
+                tNoofClass.setText("Entries Per Class:"+Long.toString(eventSingleDetails.getEntriesperclass()));
 
             }
 

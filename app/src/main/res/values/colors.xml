@@ -19,4 +19,6 @@
     <color name="orange">#FF7F50</color>
     <color name="green">#00FF00</color>
     <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="brown">#A52A2A</color>
 </resources>
