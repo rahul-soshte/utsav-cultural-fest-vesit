@@ -3,21 +3,61 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context="com.hunterlab.hunter.utsav18.DevelopersActivity">
-    <TextView
-        android:text="Rahul Soshte"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView" />
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Rahul Soshte(D12C)(2017-18)."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="38dp"
+        android:text="Jayesh Saita(D17B)(2017-18)."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="18dp"
-        android:text="Jayesh Saita" />
+        android:text="I am an Android and a Web Developer and the Creator of Utsav'18 App.\nEmail ID:2015rahul.soshte@ves.ac.in"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginTop="29dp"
+        android:text="A Super Senior and the Aboriginal Creator of this App and Creator of the Praxis'16 App."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
 
 </RelativeLayout>
