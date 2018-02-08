@@ -20,7 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CulturalCouncil" />
         <activity android:name=".DevelopersActivity" />
         <activity android:name=".Portfolio_Events_Utsav.Portfolio_event_utsav_activity" />
         <activity android:name=".Event_Single.EventSingleDetailsActivity"></activity>
