@@ -220,48 +220,6 @@
                     android:textSize="18dp"
                     android:textStyle="bold" />
             </RelativeLayout>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/pics"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="10dp"
-                app:cardBackgroundColor="#F5F5F5"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="6dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/lastt"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="HOW TO CONTACT ?"
-                        android:textAlignment="center"
-                        android:textAllCaps="true"
-                        android:textColor="#212121"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/lastt"
-                        android:layout_gravity="center_vertical|right"
-                        android:layout_margin="5dp"
-                        android:gravity="center_horizontal|fill_horizontal"
-                        android:text="Websites :\n ves.ac.in/vesit \n \n\n Address : \n Collector's Colony, Chembur \n Mumbai-400074 "
-                        android:textColor="#212121"
-                        android:textSize="15sp"
-                        android:textStyle="bold" />
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
-
-
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </LinearLayout>

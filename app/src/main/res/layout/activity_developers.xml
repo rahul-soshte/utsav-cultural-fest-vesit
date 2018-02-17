@@ -30,7 +30,7 @@
         android:layout_alignStart="@+id/textView2"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="38dp"
-        android:text="Jayesh Saita(D17B)(2017-18)."
+        android:text="Jayesh Saita(D17A)(2017-18)."
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
