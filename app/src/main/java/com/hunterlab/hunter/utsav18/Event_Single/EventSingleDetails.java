@@ -9,7 +9,7 @@ public class EventSingleDetails{
     public long entriesperclass;
     public String event_desc;
     public String name;
-    public long teamsize;
+    public String teamsize;
 
     public String getName() {
         return name;
@@ -23,7 +23,7 @@ public class EventSingleDetails{
         return event_desc;
     }
 
-    public long getTeamsize() {
+    public String getTeamsize() {
         return teamsize;
     }
 
@@ -39,7 +39,7 @@ public class EventSingleDetails{
         this.event_desc = event_desc;
     }
 
-    public void setTeamsize(long teamsize) {
+    public void setTeamsize(String teamsize) {
         this.teamsize = teamsize;
     }
 }

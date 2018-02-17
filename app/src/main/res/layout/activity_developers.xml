@@ -55,7 +55,7 @@
         android:layout_alignStart="@+id/textView3"
         android:layout_alignTop="@+id/textView3"
         android:layout_marginTop="29dp"
-        android:text="A Super Senior and the Aboriginal Creator of this App and Creator of the Praxis'16 App."
+        android:text="The Aboriginal Creator of this App and Creator of the Praxis'16 App."
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="italic" />

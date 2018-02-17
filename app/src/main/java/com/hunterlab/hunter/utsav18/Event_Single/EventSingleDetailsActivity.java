@@ -46,7 +46,7 @@ public class EventSingleDetailsActivity extends AppCompatActivity {
 
                  tName.setText("Event Name:"+eventSingleDetails.getName());
                 tDesc.setText(eventSingleDetails.getEvent_desc());
-                tSize.setText("Team Size:"+Long.toString(eventSingleDetails.getTeamsize()));
+                tSize.setText("Team Size:"+eventSingleDetails.getTeamsize());
                 tNoofClass.setText("Entries Per Class:"+Long.toString(eventSingleDetails.getEntriesperclass()));
 
             }
