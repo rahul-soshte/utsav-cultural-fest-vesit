@@ -42,7 +42,7 @@
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView"
         android:layout_below="@+id/textView"
-        android:text="I am an Android and a Web Developer and the Creator of Utsav'18 App.\nEmail ID:2015rahul.soshte@ves.ac.in"
+        android:text="I am an Android and a Web Developer and the Creator of Utsav'18 App."
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="italic" />

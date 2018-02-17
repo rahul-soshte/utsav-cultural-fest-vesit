@@ -6,7 +6,7 @@ package com.hunterlab.hunter.utsav18.Event_Single;
  */
 
 public class EventSingleDetails{
-    public long entriesperclass;
+    public String entriesperclass;
     public String event_desc;
     public String name;
     public String teamsize;
@@ -15,7 +15,7 @@ public class EventSingleDetails{
         return name;
     }
 
-    public long getEntriesperclass() {
+    public String getEntriesperclass() {
         return entriesperclass;
     }
 
@@ -31,7 +31,7 @@ public class EventSingleDetails{
         this.name = name;
     }
 
-    public void setEntriesperclass(long entriesperclass) {
+    public void setEntriesperclass(String entriesperclass) {
         this.entriesperclass = entriesperclass;
     }
 
