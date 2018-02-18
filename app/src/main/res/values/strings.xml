@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Utsav18</string>
+    <string name="app_name">Utsav\'18</string>
 <!--    <string name="fb_app_id">1036852406433569</string>
     <string name="fb_app_secret">eb4b6f3cd3a810eed0b8e53a9af570eb</string>-->
     <string name="college_name">V.E.S. Institute of Technology</string>
@@ -10,7 +10,7 @@
     <string name="vision">
     To create a vibrant knowledge-oriented environment with innovative teaching practices and to
     inculcate a tradition of socially conscious application of technology</string>
-    <string name="pra">Utsav is the annual inter-collegiate and intracollege Cultural festival of VESIT.Utsav 2018 will be held on 16th and 17th March.</string>
+    <string name="pra">Utsav is the annual inter-collegiate and intracollege Cultural festival of VESIT.Utsav 2018 will be held on 21st and 22nd March.</string>
 
     <string name="title_activity_splash_screeen">SplashScreeen</string>
     <string name="dummy_button">Dummy Button</string>

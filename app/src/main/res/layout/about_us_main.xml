@@ -208,17 +208,17 @@
                     android:src="@drawable/sabnissir" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/dean"
-                    android:layout_margin="5dp"
-                    android:text="Prof. Manoj Sabnis \n Dean of Student Affairs,VESIT"
-                    android:textAlignment="center"
-                    android:gravity="center"
-                    android:textAllCaps="false"
-                    android:textColor="#212121"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dean"
+                android:layout_margin="5dp"
+                android:text="Prof. Manoj Sabnis \n Dean of Student Affairs,VESIT"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="18dp"
+                android:textStyle="bold" />??
             </RelativeLayout>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
